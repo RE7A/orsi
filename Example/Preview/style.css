@@ -1,0 +1,10 @@
+.preview-column {
+  margin: 1rem 0;
+  border: 0.1rem solid #37474f; }
+  .preview-column [class*=lg-] {
+    background: #37474f;
+    color: #f6f6f6;
+    padding: 0.5rem;
+    direction: ltr;
+    height: 6rem;
+    border: 0.3rem solid #f6f6f6; }

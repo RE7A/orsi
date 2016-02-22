@@ -1,0 +1,120 @@
+// number Of Grids 
+$numberOfGrids:12;
+// Direction Set 
+$direction:left;
+$width:100%;
+
+//mixin for flexing properties 
+@mixin flexing($property,$value){
+    #{$property}:$value; 
+    -webkit-#{$property}:$value; 
+    -moz-#{$property}:$value;
+    -ms-#{$property}:$value;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    @if $direction == right{direction: rtl;}
+    @else if $direction == left {direction:ltr;}
+    margin: 0;
+    padding: 0;
+    a{
+        text-decoration: none;
+    } 
+
+}
+/*** Floating Classes ***/
+[class*=lg-],[class*=md-],[class*=sm-],[class*=xs-],[class*=xss-],[class*=ofsset-],.container,.row,.img-responsive
+{
+    @if $direction == right{float: right;}
+    @else if $direction == left {float: left;}
+}
+/*** container fixed Width **/
+.container{
+    width: $width;
+}
+/****row ***/
+.row{
+    width: $width;
+}
+
+/*** Grids For Large Screen Grater than 1200Px ***/
+@for $i from 1 through $numberOfGrids {
+    .lg-#{$i} {
+        width: $width / $numberOfGrids * $i;
+    }
+}
+
+/*** Grids For Medium Screen Greater than 998Px and less than 1200Px  ***/
+@media screen and (max-width:75em){
+    @for $i from 1 through $numberOfGrids {
+        .md-#{$i} {width: $width / $numberOfGrids * $i;}
+    }
+}
+
+/*** Grids For Small Screen Greater than 768Px and less than 998Px  ***/
+@media screen and (max-width:62.375em){
+    @for $i from 1 through $numberOfGrids {
+        .sm-#{$i} {width: $width / $numberOfGrids * $i; }
+    }
+}
+
+/*** Grids For Extra Small Screen Greater than 400Px and less than 768Px  ***/
+@media screen and (max-width:48em){
+    @for $i from 1 through $numberOfGrids {
+        .xs-#{$i} {width: $width / 12 * $i;}
+    } 
+}
+
+/*** Offset Right do null elements for create null tear ***/ 
+ @for $i from 1 through $numberOfGrids{
+     .offset-right-#{$i} {margin-right: $width / $numberOfGrids * $i; }
+}
+
+/*** Offset left do null elements for create null tear ***/ 
+ @for $i from 1 through $numberOfGrids {
+     .offset-left-#{$i} {margin-left: $width / $numberOfGrids  * $i;}
+}
+
+/*** Row class ***/
+.row{
+    width: $width;
+}
+
+/*** Img Responsive ***/
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+/*** Float Left and Right Elements ***/
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+/*** Tex Aligning Center ***/
+.text-center{
+    text-align: center;
+}
+
+/*** Item Aligning Center ***/
+.flex-center{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    @include flexing(flex-warp,wrap);
+    @include flexing(flex-direction,row);
+    @include flexing(justify-content,space-around);
+}
+
+.flex-align-center{
+    @include flexing(align-self,center);
+}

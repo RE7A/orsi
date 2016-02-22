@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title> Preview of Flex-Center Class</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../dist/ltr/orsi-ltr.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="preview-column container">
+       <!--Aligning To Center Items--->
+        <div class="container flex-center">
+            <div class="item lg-3 sm-12"><span>item</span><br><span>sm-12</span></div>
+            <div class="item lg-3"><span>item</span></div>
+            <div class="item lg-3"><span>item</span></div>
+        </div>
+        <!--Aligning To Center a Item Grater Than 11 -->
+        <div class="container flex-center">
+            <div class="lg-11">
+                <h1>Flex-center Property!</h1>
+            </div>
+        </div>
+        <!--Aligning To Center several Items-->
+        <div class="container flex-center items-3">
+           
+            <div class="lg-5 flex-center">
+                <div class="lg-6"><span>center</span></div>
+            </div>
+            
+            <div class="lg-5 flex-center">
+                <div class="lg-3 md-4"><span>center</span></div>
+                <div class="lg-3 md-4"><span>center</span></div>
+                <div class="lg-3 md-4"><span>center</span></div>
+            </div>
+            
+        </div>
+        <!--Horizantal Aligned Center-->
+        <div class="container flex-center">
+        <div class="horiz lg-11 flex-center">
+            <div class="lg-5 flex-align-center"> <h1>Horizantal Aligned To Center!</h1></div>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
