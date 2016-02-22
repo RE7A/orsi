@@ -1,0 +1,29 @@
+body{
+    background: #f6f6f6;
+    font-family: sans-serif;
+}
+.preview-column {
+  margin: 1rem 0;
+  
+}
+  .preview-column [class*=lg-] {
+    background: #37474f;
+    color: #f6f6f6;
+    padding:1rem;
+    direction: ltr;
+/*    height: 6rem;*/
+    border: 0.3rem solid #f6f6f6; }
+.items-3 .lg-6,.items-3 .lg-3
+{
+    border: 0 !important;
+    background: #0288d1;
+    height: 3.5rem;
+}
+.horiz{
+    height: 20rem!important;
+}
+.horiz .lg-5{
+    background: #0288d1;
+    
+    
+}
