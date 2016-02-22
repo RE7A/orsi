@@ -9,12 +9,12 @@ What you'll do, is so simple.
 you can choose the soze of your element For each unit in each row with the help of below chart.
 To understand better Look at The [examples](https://codepen.io/orsi-grid). 
 ####Main-classes
-Classes | media Queries | Pixel Range | Devices  
+Classes | media Queries<br>(min-width) | Pixel Range | Devices  
 ------------ | ------------- | ----------- | -------
 .lg-[1-12] | null |  > 1200Px | Descktop PC and Retina Displays
-.md-[1-12] | 75em |  > 998Px | Desktop PC and Tablets
-.sm-[1-12] | 62.375 em | > 768PX | Tablets and Mobiels
-.xs-[1-12] | 48em | > 400Px | mobiles
+.md-[1-12] | 75em |  < 998Px | Desktop PC and Tablets
+.sm-[1-12] | 62.375 em | < 768PX | Tablets and Mobiels
+.xs-[1-12] | 48em | < 400Px | mobiles
 ####Other-Classes
 **.Container**<br>
 Floating parent container elments.<br><br>
