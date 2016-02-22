@@ -114,8 +114,8 @@ body{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    @include flexing(flex-warp,wrap);
     @include flexing(flex-direction,row);
+    @include flexing(flex-wrap,wrap);
     @include flexing(justify-content,space-around);
 }
 

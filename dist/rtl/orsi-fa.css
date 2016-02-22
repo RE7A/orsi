@@ -270,10 +270,10 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-warp: wrap;
-  -webkit-flex-warp: wrap;
-  -moz-flex-warp: wrap;
-  -ms-flex-warp: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
   flex-direction: row;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
