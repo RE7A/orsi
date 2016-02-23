@@ -26,7 +26,7 @@ After using ***.flex-center*** you can horizantally self item align to center wi
 Align to center text.<br><br>
 **.img-responsive**<br>
 to the image so that it scales nicely to the parent element. <br><br> 
-**.Float-right & .Float-left**<br>
+**.float-right & .float-left**<br>
 floating elements to right or left.<br><br>
 ##Get Start
 ####1.Include Stylesheets File
