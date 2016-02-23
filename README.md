@@ -6,7 +6,7 @@ Orsi system has made by a comination of Floting and Flexing properties which is 
 Orsi grid includes 12 Responsive grids that you can use them easily.
 ###How to Work?
 What you'll do, is so simple.
-you can choose the soze of your element For each unit in each row with the help of below chart.
+you can choose the size of your element For each unit in each row with the help of below chart.
 To understand better Look at The [examples](https://codepen.io/orsi-grid). 
 ####Main-classes
 Classes | media Queries<br>(min-width) | Pixel Range | Devices  
