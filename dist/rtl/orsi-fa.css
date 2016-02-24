@@ -1,3 +1,6 @@
+/**ORSI v1.0
+Build 2015-2016
+***/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -251,7 +254,7 @@ body {
 
 /*** Img Responsive ***/
 .img-responsive {
-  width: 100%;
+  max-width: 100%;
   height: auto; }
 
 /*** Float Left and Right Elements ***/
@@ -270,14 +273,14 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap:wrap;
-  -moz-flex-wrap:wrap;
-  -ms-flex-wrap:wrap;
   flex-direction: row;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
   -ms-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   justify-content: space-around;
   -webkit-justify-content: space-around;
   -moz-justify-content: space-around;
@@ -288,4 +291,5 @@ body {
   -webkit-align-self: center;
   -moz-align-self: center;
   -ms-align-self: center; }
+
 

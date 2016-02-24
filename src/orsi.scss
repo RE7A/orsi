@@ -1,11 +1,11 @@
-/**ORSI v0.1Beta 
+/**ORSI v1.0
 Build 2015-2016
 ***/
 
 // number Of Grids 
 $numberOfGrids:12;
 // Direction Set 
-$direction:left;
+$direction:right;
 $width:100%;
 
 //mixin for flexing properties 
@@ -92,7 +92,7 @@ body{
 
 /*** Img Responsive ***/
 .img-responsive{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
