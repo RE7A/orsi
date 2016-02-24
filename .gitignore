@@ -1,0 +1,5 @@
+#Exclude the orsi.css file
+orsi.css
+
+#Exclude orsi.map.css fiel
+orsi.css.map
