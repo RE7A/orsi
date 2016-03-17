@@ -3,3 +3,5 @@ orsi.css
 
 #Exclude orsi.map.css fiel
 orsi.css.map
+
+#Exclude test/
