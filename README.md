@@ -28,15 +28,15 @@ Align to center text.<br><br>
 to the image so that it scales nicely to the parent element. <br><br> 
 **.float-right & .float-left**<br>
 floating elements to right or left.<br><br>
-##Get Start
-####1.Include Stylesheets File
+## Get Start
+#### 1.Include Stylesheets File
 ```html
 <!--orsi with comments-->
 <link rel="stylesheet" href="/dist/ltr/orsi-ltr.css">
 <!--orsi without comments-->
 <link rel="stylesheet" href="/dist/ltr/orsi-ltr-min.css">
 ```
-####2.Add the Viewport Meta Tag
+#### 2.Add the Viewport Meta Tag
 Place in the <head> of your HTML. This enables use of media queries for cross-device layouts.
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
